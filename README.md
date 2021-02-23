@@ -22,7 +22,7 @@ API Automation Assignment ( Java, TestNg, Maven, Restassured, Log4j, CircleCI )<
 
 
 ## CircleCI flow:
-- basic configfile is attached to repo.<br />
-- test results are exported as a artifact.<br />
-- xml file can be used to analyze the results<br />
+- Pipeline config.yml is attached to repo : https://github.com/mlsgu/by-api/blob/main/.circleci/config.yml <br />
+- test results are exported as an artifact.<br />
+- testng xml file can be used to analyze the results<br />
 
