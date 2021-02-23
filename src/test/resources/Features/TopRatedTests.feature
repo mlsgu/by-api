@@ -1,4 +1,4 @@
-Feature : Test TopRated End Points
+Feature: Test TopRated End Points
 
   As a user, i want to GET Top Rated Movies with valid API Key
 
