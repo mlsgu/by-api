@@ -4,6 +4,7 @@ API Automation Assignment ( Java, TestNg, Maven, Restassured, Log4j, Gherkin, Ci
 ## Usage:
 -No additional effort needed, Just import as existing maven project. Libs will be automatically downloaded.<br />
 -Go to the UserTests.java and click on Run All or right click Run as TestNG Test<br />
+-XML and html reports will be created under test-output folder when you execute the test suite<br />
 
 ## Automated Test Cases can be found under 
 -https://github.com/mlsgu/by-api/tree/main/src/test/java/testcases<br />
