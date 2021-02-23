@@ -1,5 +1,5 @@
 ## Introduction:
-API Automation Assignment ( Java, TestNg, Maven, Restassured, Log4j, CircleCI )<br />
+API Automation Assignment ( Java, TestNg, Maven, Restassured, Log4j, Gherkin, CircleCI )<br />
 
 ## Usage:
 -No additional effort needed, Just import as existing maven project. Libs will be automatically downloaded.<br />
