@@ -1,11 +1,14 @@
 Feature : Test RateMovie End Points
 
+As a user, i want to get request token with API Key
+
 Scenario: Get a request token
-  GivenUser has valid API Key
+  Given User has valid API Key
   When User sends a GET request with apiKey to EndPoint:/authentication/token/new
   Then User should get 200OK response code
   
-  
+As a user, i want to rate a movie with Valid Guest Session ID
+
 Scenario: Rate Movie with Valid Guest Session ID
   Given User has valid API Key and MovieID
   When User sends a GET  request to EndPoint:/authentication/guest_session/new
@@ -16,6 +19,7 @@ Scenario: Rate Movie with Valid Guest Session ID
   When User User send a POST request to with apiKey, guestSessionId,movieID, score to EndPoint:/movie/movie_id/rating
   Then User Should get 201 Created Success response code
 
+As a user, i want to rate a movie with inValid Guest Session ID
 
 Scenario: Rate Movie with inValid Guest Session ID
   Given User has valid API Key and inValidGuestSessionID and MovieID
