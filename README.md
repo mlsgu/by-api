@@ -6,10 +6,10 @@ API Automation Assignment ( Java, TestNg, Maven, Restassured, Log4j, CircleCI )<
 -Go to the UserTests.java and click on Run All or right click Run as TestNG Test<br />
 
 ## Automated Test Cases can be found under 
--/main/src/test/java/testcases<br />
+-https://github.com/mlsgu/by-api/tree/main/src/test/java/testcases<br />
 
 ## Test Cases in Gherkin format can be found under
--/main/src/test/resources/Features<br />
+-https://github.com/mlsgu/by-api/tree/main/src/test/resources/Features<br />
 
 ## Technologies Used
 -Java<br />
