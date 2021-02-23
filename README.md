@@ -18,6 +18,8 @@ API Automation Assignment ( Java, TestNg, Maven, Restassured, Log4j, CircleCI )<
 -TestNG is used - for test execution<br />
 -config.properties is used - to clean test and code<br />
 -CircleCI for Orchestration and Docker Based execution<br />
+-Used Docker image : Maven<br />
+
 
 ## CircleCI flow:
 - basic configfile is attached to repo.<br />
